@@ -1,6 +1,6 @@
 # printeditor-custom-whitespaces-glyphs
 
-Example how to extend or modify the custom whitespaces or glyps in the Studio print editor.
+Example how to extend or modify the custom whitespaces or glyphs in the Studio print editor.
 
 The standard configurations can be downloaded from
 * [YOUR STUDIO URL]/app/config-glyphs.js
