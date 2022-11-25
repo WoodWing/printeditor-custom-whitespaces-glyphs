@@ -1,4 +1,4 @@
-# printeditor-custom-whitespaces-glyps
+# printeditor-custom-whitespaces-glyphs
 
 Example how to extend or modify the custom whitespaces or glyps in the Studio print editor.
 
@@ -15,5 +15,5 @@ More information about the format can be found at
 * Refresh your studio browser 
 
 ## Test the sample
-* Configure a print editor plug-in via the Studio management console with the following URL: https://woodwing.github.io/printeditor-custom-whitespaces-glyps/custom-glyps-whitespaces.js 
+* Configure a print editor plug-in via the Studio management console with the following URL: https://woodwing.github.io/printeditor-custom-whitespaces-glyphs/custom-glyphs-whitespaces.js 
 
