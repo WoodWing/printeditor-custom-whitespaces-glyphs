@@ -10,7 +10,7 @@ More information about the format can be found at
 * [YOUR STUDIO URL]/app/sdk/print-editor-glyphs-sdk.md
 
 ## Installation instructions
-* Deploy your custom custom-glyps-whitespaces.js on a publicly accessible URL 
+* Deploy your custom custom-glyphs-whitespaces.js on a publicly accessible URL 
 * Configure a print editor plug-in via the Studio management console 
 * Refresh your studio browser 
 
