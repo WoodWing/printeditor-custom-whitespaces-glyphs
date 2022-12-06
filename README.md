@@ -11,7 +11,7 @@ More information about the format can be found at
 
 ## Installation instructions
 * Deploy your custom custom-glyphs-whitespaces.js on a publicly accessible URL. 
-* Configure a print editor plug-in via the [Studio management console]([https://helpcenter.woodwing.com/hc/en-us/articles/4404782940561-Managing-plug-ins-in-Studio](https://helpcenter.woodwing.com/hc/en-us/articles/4404782940561-Managing-plug-ins-in-Studio#using-the-management-console) and configure the link to the custom-glyphs-whitespaces.js by adding it to the URL field.
+* Configure a print editor plug-in via the [Studio management console](https://helpcenter.woodwing.com/hc/en-us/articles/4404782940561-Managing-plug-ins-in-Studio](https://helpcenter.woodwing.com/hc/en-us/articles/4404782940561-Managing-plug-ins-in-Studio#using-the-management-console) and configure the link to the custom-glyphs-whitespaces.js by adding it to the URL field.
 * Refresh your Studio Print Editor browser window to load the changes. 
 
 ## Test the sample
