@@ -47,8 +47,4 @@
      */
     window.peWhiteSpaces.groups.find((group)=> group.groupId === '2')
     .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'My custom space 1').unicode = 'newUnicodeHere';
-
-    window.peWhiteSpaces.groups.find((group)=> group.groupId === '2')
-   .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'My custom space 2').shortcut = 'new+short+cut';
-
 })();   
