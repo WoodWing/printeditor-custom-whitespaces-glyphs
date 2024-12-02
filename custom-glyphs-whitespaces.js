@@ -37,14 +37,32 @@
     });
 
     /**
-     *  Modifying existing glyphs
+     * Modifying existing glyphs by removing and replacing the item
      */
-    window.peGlyphs.groups.find((group)=> group.groupName === 'Stars')
-    .glyphs.find((glyph)=> glyph.name === '✯').unicode = 'newUnicodeHere';
+    const starsGroup = window.peGlyphs.groups.find(group => group.groupName === 'Currency');
+    const targetGlyphIndex = starsGroup.glyphs.findIndex(glyph => glyph.name === 'Euro');
+    starsGroup.glyphs.splice(targetGlyphIndex, 1, {
+        ...starsGroup.glyphs[targetGlyphIndex],
+        unicode: 'U+24BA'
+    });
 
     /**
-     * Modifying existing whitespaces
+     * Modifying existing whitespaces unicode by removing and replacing the item
      */
-    window.peWhiteSpaces.groups.find((group)=> group.groupId === '2')
-    .whiteSpaces.find((whiteSpace)=> whiteSpace.name === 'My custom space 1').unicode = 'newUnicodeHere';
+    const groupWithId3 = window.peWhiteSpaces.groups.find(group => group.groupId === '3');
+    const targetWhiteSpaceIndex = groupWithId3.whiteSpaces.findIndex(whiteSpace => whiteSpace.name === 'LBL_HAIR_SPACE');
+    groupWithId3.whiteSpaces.splice(targetWhiteSpaceIndex, 1, {
+        ...groupWithId3.whiteSpaces[targetWhiteSpaceIndex],
+        unicode: 'U+0398'
+    });
+
+    /**
+     * Modifying existing whitespaces shortcuts by removing and replacing the item
+     */
+    const groupWithId2 = window.peWhiteSpaces.groups.find(group => group.groupId === '2');
+    const targetShortcutIndex = groupWithId2.whiteSpaces.findIndex(whiteSpace => whiteSpace.name === 'LBL_NO_BREAK_SPACE');
+    groupWithId2.whiteSpaces.splice(targetShortcutIndex, 1, {
+        ...groupWithId2.whiteSpaces[targetShortcutIndex],
+        shortcut: 'alt+mod+T'
+    });
 })();   
